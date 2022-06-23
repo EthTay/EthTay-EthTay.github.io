@@ -18,7 +18,7 @@
 </head>
 <body>
   <script>
-  progressJs().setOptions({ overlayMode: true, theme: 'custom' }).start();
+    progressJs().setOptions({ overlayMode: true, theme: 'custom' }).start();
     if (window.attachEvent) {
       window.attachEvent('onload', function () { progressJs().end(); });
     } else {
@@ -40,8 +40,8 @@
         <nav class="first-nav__links">
           <ul>
             <li><a class="is-selected">English</a></li>
-<!--        <li><a href="#">français</a></li>
-            <li><a href="#">deutsch</a></li>-->
+            <!--        <li><a href="#">français</a></li>
+                        <li><a href="#">deutsch</a></li>-->
           </ul>
         </nav>
         <a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#">Menu</a>
@@ -55,13 +55,12 @@
             <li><a class="js-link js-anchor is-selected" href="#home">Home</a></li>
             <li><a class="js-link js-anchor" href="#about">About</a></li>
             <li><a class="js-link js-anchor" href="#research">Research</a></li>
-            <li><a class="js-link js-anchor" href="#process">Process</a></li>
-            <li><a class="js-link js-anchor" href="#projects">Projects</a></li>
+            <li><a class="js-link js-anchor" href="#CV">Curriculum Vitae</a></li>currentResearch
             <li><a class="js-link js-anchor" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
-    </div> 
+    </div>
   </header>
   <!-- Home section-->
   <section class="home-section" id="home">
@@ -130,17 +129,20 @@
             <p>Nulla iaculis, nisi id imperdiet viverra, nunc purus ornare nibh, at condimentum nibh quam eu velit. Praesent egestas elit vitae consequat auctor. Sed dapibus posuere magna non finibus. Proin tempor lacus at efficitur porttitor. Vivamus commodo erat nec lorem varius placerat. Donec porta eros sit amet enim convallis suscipit.</p>
           </li>
         </ul>
-        <div class="advantages">
+<!--       <div class="advantages">
           <h2>Why choose me?</h2>
           <blockquote>
             <p>Morbi vel orci at ante posuere consequat vel auctor dui. Quisque imperdiet elementum suscipit. Duis dapibus ante vel quam ullamcorper, a accumsan dui viverra. Donec accumsan magna metus, in interdum sem cursus in. Vestibulum sit amet lacus pretium, semper augue vitae, rutrum magna. Maecenas vitae iaculis neque. Aenean semper erat at augue cursus, ac imperdiet urna eleifend. Curabitur vehicula leo vitae orci eleifend lacinia.</p>
             <cite>John Doe project management consultancy</cite>
           </blockquote>
-        </div>
+        </div>-->
       </div>
     </div>
   </section>
-  <!-- Process section-->
+
+
+
+  <!--  <!-- Process section
   <section class="common-section" id="process">
     <div class="container">
       <header class="common-section__header">
@@ -180,8 +182,12 @@
         </ul>
       </div>
     </div>
-  </section>
+  </section>-->
+
+
+
   <!-- Projects section-->
+
   <section class="common-section" id="projects">
     <header class="common-section__header">
       <h2>Projects</h2>
@@ -226,6 +232,29 @@
       </div>
     </div>
   </section>
+
+  <!--Presentation on Current Research-->
+  <section class="common-section" id="currentResearch">
+    <header class="common-section__header">
+      <h2>Current Research</h2>
+      <iframe src="https://surreyac.sharepoint.com/sites/EDGE2.0/_layouts/15/Doc.aspx?sourcedoc={59c24a4a-25c3-4e7d-b3ec-e3db0b326c43}&amp;action=embedview&amp;wdAr=1.3343108504398826&amp;wdEaaCheck=1" width="1280px" height="720px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+      <p>place holder presentation</p>
+    </header>
+  </section>
+
+  <section class="common-section" id="curriculum vitae">
+    <header class="about-card__header">
+      <h2>Curriculum Vitae</h2>
+      <body>
+        <h1>PDF Example with iframe</h1>
+        <iframe src="" width="50%" height="75%">
+        </iframe>
+      </body>
+
+
+    </header>
+  </section>
+
 
   <!-- Contacts section-->
   <div class="contacts-section" id="contacts">
